@@ -1,0 +1,180 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-info ul li {
+        margin-right: 20px;
+    }
+    .main-menu ul li {
+        margin-right: 20px;
+    }
+    .back-text {
+        font-size: 200px;
+    }
+    .section-title h1 {
+        font-size: 80px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .section-title-big h1 {
+        top: -100px;
+    }
+    .event-content h2 {
+        font-size: 25px
+    }
+    .event-img img {
+        width: 100%;
+    }
+    .up-event-content h3 {
+        font-size: 25px;
+    }
+    .footer-widget {
+        padding-left: 0;
+    }
+    .about-text h2 {
+        font-size: 30px
+    }
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-info ul li.header-info-last{
+        display: none;
+    }
+    .header-btn {
+        margin-right: 70px;
+        margin-top: 15px;
+    }
+    .back-text {
+        font-size: 100px;
+    }
+    .hero-wrap h2 {
+        font-size: 60px;
+    }
+    .hero-area {
+        min-height: 800px;
+    }
+    .hero-wrap {
+        margin-top: 170px;
+    }
+   
+    .event-img img {
+        width: 100%;
+    }
+    .section-title-big h1 {
+        font-size: 175px;
+    }
+    .up-event-content h3 {
+        font-size: 25px;
+    }
+    .up-event-btn {
+        text-align: left !important;
+        margin-left: 177px;
+        margin-top: 10px;
+    }
+    .signle-fact.text-center h1 {
+        font-size: 50px;
+    }
+    .section-title-big h1 {
+        top: -100px;
+    }
+    .f-btn {
+        padding: 15px 26px;
+        line-height: 1;
+        font-size: 12px
+    }
+    .footer-widget ul li {
+        margin-bottom: 5px;
+    }
+    
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .menu-box {
+        padding-top: 20px;
+    }
+    .mean-container a.meanmenu-reveal {
+        margin-top: -44px;
+    }
+    .hero-wrap h2 {
+        font-size: 35px;
+    }
+    .back-text {
+        font-size: 100px;
+    }
+    .hero-area {
+        min-height: 700px;
+    }
+    .hero-wrap {
+        margin-top: 170px;
+    }
+    .section-title h1 {
+        font-size: 80px;
+    }
+    .section-title h2 {
+        font-size: 40px;
+    }
+    .section-title-big h1 {
+        top: -100px;
+    }
+    .event-img img {
+        width: 100%;
+    }
+    .up-date {
+        float: none;
+        margin-bottom: 20px;
+    }
+    .up-event-btn {
+        text-align: left !important;
+        margin-top: 10px;
+    }
+    .signle-fact {
+        padding: 50px 0;
+        border: 0;
+    }
+    .news-thum img {
+        width: 100%;
+    }
+    .footer-widget {
+        padding-left: 0;
+    }
+    .about-img img {
+        margin-left: 0;
+        max-width: inherit;
+    }
+    .page-title h2 {
+        font-size: 50px
+    }
+    .about-text h2 {
+        font-size: 30px
+    }
+    .f-btn {
+        padding: 15px 26px;
+        line-height: 1;
+        font-size: 12px
+    }
+    .footer-widget ul li {
+        margin-bottom: 5px;
+    }
+
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 550px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
